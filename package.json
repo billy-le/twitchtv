@@ -1,0 +1,9 @@
+{
+  "name": "twitchtv",
+  "version": "0.0.1",
+  "description": "twitch.tv fcc challenge",
+  "main": "app.js",
+  "repository": "https://github.com/lebilly/twitchtv.git",
+  "author": "Billy Le <lebilly87@gmail.com>",
+  "license": "MIT"
+}
