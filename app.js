@@ -136,7 +136,7 @@ var getStatus = (function() {
       notFoundInfo.className += ' not-found-shade';
 
       notFoundId.innerHTML = '<h2>' + displayName + '</h2>';
-      notFoundInfo.innerHTML = '<h3>' + errorRequest + '</h3><p>Error ' + errorStatus + '</p><p>' + errorMsg + '</p>';
+      notFoundInfo.innerHTML = '<h3>' + errorRequest + '</h3><p>Error ' + errorStatus + " - " + errorMsg + '</p>';
     }
   }
 
