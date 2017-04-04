@@ -95,7 +95,7 @@ var getStatus = (function() {
       player.setVolume(0.5);
     }
     else {
-      var newUrl = "https://wind-bow.gomix.me/twitch-api/channels/";
+      var newUrl = "https://wind-bow.glitch.me/twitch-api/channels/";
       ajax.getReq('GET', newUrl, value, getStatus.channel);
     }
   }
@@ -146,7 +146,7 @@ var getStatus = (function() {
   }
 })();
 
-var url = 'https://wind-bow.gomix.me/twitch-api/streams/';
+var url = 'https://wind-bow.glitch.me/twitch-api/streams/';
 
 list.check.forEach(function(channel) {
   ajax.getReq('GET', url, channel, getStatus.check)
